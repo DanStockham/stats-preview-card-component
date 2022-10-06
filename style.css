@@ -19,6 +19,8 @@ h2 {
 
 img {
   border-radius: 10px 10px 0 0;
+  mix-blend-mode: multiply;
+  opacity: 80%;
 }
 
 .page-wrapper {
@@ -64,11 +66,9 @@ img {
 
 .overlay {
   background: var(--primary-soft-violet);
-  opacity: 40%;
   width: inherit;
   position: absolute;
-  overflow: hidden;
-  height: 17.3rem;
+  height: 17.2rem;
   border-radius: 10px 10px 0 0;
 }
 
@@ -133,8 +133,8 @@ img {
   }
 
   .overlay {
-    height: 28rem;
-    width: 33.8rem;
+    height: 27.7rem;
+    width: 33.75rem;
     border-radius: 0 10px 10px 0;
   }
 
